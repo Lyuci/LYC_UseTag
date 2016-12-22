@@ -16,6 +16,13 @@
 		3EB842D21DC34C54009C2398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB842D01DC34C54009C2398 /* LaunchScreen.storyboard */; };
 		3EB842DD1DC34C54009C2398 /* LYC_UseTagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB842DC1DC34C54009C2398 /* LYC_UseTagTests.m */; };
 		3EB842E81DC34C54009C2398 /* LYC_UseTagUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB842E71DC34C54009C2398 /* LYC_UseTagUITests.m */; };
+		3EB842FB1DC34D09009C2398 /* UIView+lyc_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB842FA1DC34D09009C2398 /* UIView+lyc_Frame.m */; };
+		3EB842FE1DC739C6009C2398 /* LYCTagInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB842FD1DC739C6009C2398 /* LYCTagInfo.m */; };
+		3EB843011DC73EDB009C2398 /* LYCTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB843001DC73EDB009C2398 /* LYCTagView.m */; };
+		3ED51BCA1DD1722D004CB150 /* LYCTagImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED51BC91DD1722D004CB150 /* LYCTagImageView.m */; };
+		3EF06AC41E0BBDC20020C669 /* detail_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3EF06AC11E0BBDC20020C669 /* detail_1.jpeg */; };
+		3EF06AC51E0BBDC20020C669 /* detail_4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3EF06AC21E0BBDC20020C669 /* detail_4.jpeg */; };
+		3EF06AC61E0BBDC20020C669 /* detail_5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3EF06AC31E0BBDC20020C669 /* detail_5.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,17 @@
 		3EB842E31DC34C54009C2398 /* LYC_UseTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYC_UseTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB842E71DC34C54009C2398 /* LYC_UseTagUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYC_UseTagUITests.m; sourceTree = "<group>"; };
 		3EB842E91DC34C54009C2398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB842F91DC34D09009C2398 /* UIView+lyc_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+lyc_Frame.h"; sourceTree = "<group>"; };
+		3EB842FA1DC34D09009C2398 /* UIView+lyc_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+lyc_Frame.m"; sourceTree = "<group>"; };
+		3EB842FC1DC739C6009C2398 /* LYCTagInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCTagInfo.h; sourceTree = "<group>"; };
+		3EB842FD1DC739C6009C2398 /* LYCTagInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCTagInfo.m; sourceTree = "<group>"; };
+		3EB842FF1DC73EDB009C2398 /* LYCTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCTagView.h; sourceTree = "<group>"; };
+		3EB843001DC73EDB009C2398 /* LYCTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCTagView.m; sourceTree = "<group>"; };
+		3ED51BC81DD1722D004CB150 /* LYCTagImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCTagImageView.h; sourceTree = "<group>"; };
+		3ED51BC91DD1722D004CB150 /* LYCTagImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCTagImageView.m; sourceTree = "<group>"; };
+		3EF06AC11E0BBDC20020C669 /* detail_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detail_1.jpeg; sourceTree = "<group>"; };
+		3EF06AC21E0BBDC20020C669 /* detail_4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detail_4.jpeg; sourceTree = "<group>"; };
+		3EF06AC31E0BBDC20020C669 /* detail_5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detail_5.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +121,7 @@
 		3EB842BE1DC34C54009C2398 /* LYC_UseTag */ = {
 			isa = PBXGroup;
 			children = (
+				3EB842F51DC34CD3009C2398 /* LYC_TagViewSupportFile */,
 				3EB842C21DC34C54009C2398 /* AppDelegate.h */,
 				3EB842C31DC34C54009C2398 /* AppDelegate.m */,
 				3EB842C51DC34C54009C2398 /* ViewController.h */,
@@ -141,6 +160,24 @@
 				3EB842E91DC34C54009C2398 /* Info.plist */,
 			);
 			path = LYC_UseTagUITests;
+			sourceTree = "<group>";
+		};
+		3EB842F51DC34CD3009C2398 /* LYC_TagViewSupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				3EF06AC11E0BBDC20020C669 /* detail_1.jpeg */,
+				3EF06AC21E0BBDC20020C669 /* detail_4.jpeg */,
+				3EF06AC31E0BBDC20020C669 /* detail_5.jpeg */,
+				3EB842F91DC34D09009C2398 /* UIView+lyc_Frame.h */,
+				3EB842FA1DC34D09009C2398 /* UIView+lyc_Frame.m */,
+				3EB842FC1DC739C6009C2398 /* LYCTagInfo.h */,
+				3EB842FD1DC739C6009C2398 /* LYCTagInfo.m */,
+				3EB842FF1DC73EDB009C2398 /* LYCTagView.h */,
+				3EB843001DC73EDB009C2398 /* LYCTagView.m */,
+				3ED51BC81DD1722D004CB150 /* LYCTagImageView.h */,
+				3ED51BC91DD1722D004CB150 /* LYCTagImageView.m */,
+			);
+			path = LYC_TagViewSupportFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +247,7 @@
 				TargetAttributes = {
 					3EB842BB1DC34C54009C2398 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XVEWJ9A847;
 					};
 					3EB842D71DC34C54009C2398 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -247,8 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EB842D21DC34C54009C2398 /* LaunchScreen.storyboard in Resources */,
+				3EF06AC51E0BBDC20020C669 /* detail_4.jpeg in Resources */,
+				3EF06AC61E0BBDC20020C669 /* detail_5.jpeg in Resources */,
 				3EB842CF1DC34C54009C2398 /* Assets.xcassets in Resources */,
 				3EB842CA1DC34C54009C2398 /* Main.storyboard in Resources */,
+				3EF06AC41E0BBDC20020C669 /* detail_1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +315,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EB842C71DC34C54009C2398 /* ViewController.m in Sources */,
+				3EB842FB1DC34D09009C2398 /* UIView+lyc_Frame.m in Sources */,
 				3EB842C41DC34C54009C2398 /* AppDelegate.m in Sources */,
 				3EB842C11DC34C54009C2398 /* main.m in Sources */,
 				3EB842CD1DC34C54009C2398 /* LYC_UseTag.xcdatamodeld in Sources */,
+				3EB842FE1DC739C6009C2398 /* LYCTagInfo.m in Sources */,
+				3ED51BCA1DD1722D004CB150 /* LYCTagImageView.m in Sources */,
+				3EB843011DC73EDB009C2398 /* LYCTagView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,10 +464,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LYC_UseTag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YuciSister.LYC-UseTag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -430,10 +478,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LYC_UseTag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YuciSister.LYC-UseTag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -502,6 +553,7 @@
 				3EB842EE1DC34C54009C2398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EB842EF1DC34C54009C2398 /* Build configuration list for PBXNativeTarget "LYC_UseTagTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +562,7 @@
 				3EB842F11DC34C54009C2398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EB842F21DC34C54009C2398 /* Build configuration list for PBXNativeTarget "LYC_UseTagUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +571,7 @@
 				3EB842F41DC34C54009C2398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
